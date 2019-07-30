@@ -6,7 +6,7 @@ Building and optimizing a machine learning model to predict housing prices stati
 
 ### Install
 
-This project requires **Python 3.7** and the following Python libraries installed:
+This project implemented on **Python 3.7** and the following Python libraries installed:
 
 
 - [Jupyter Notebook (IPython) 4.10.0](https://ipython.org/)
