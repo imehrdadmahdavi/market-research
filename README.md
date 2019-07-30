@@ -6,14 +6,14 @@ Building and optimizing a machine learning model to predict housing prices stati
 
 ### Install
 
-This project implemented on **Python 3.7** and the following Python libraries installed:
+This project requires **Python 3.7** and the following Python libraries installed:
 
 
 - [Jupyter Notebook (IPython) 4.10.0](https://ipython.org/)
 - [NumPy 1.16.4](http://www.numpy.org/)
 - [Pandas 0.24.2](http://pandas.pydata.org/)
 - [matplotlib 2.2.4](http://matplotlib.org/)
-- [scikit-learn 0.17](http://scikit-learn.org/stable/)
+- [scikit-learn 0.19.2](http://scikit-learn.org/stable/)
 
 If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included.
 
