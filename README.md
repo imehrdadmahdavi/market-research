@@ -2,47 +2,36 @@
 
 ### Description
 
-Building and optimizing a machine learning model to predict housing prices statistical analysis sklearn cross validation grid search machine learning
+This project, employs several supervised algorithms to accurately model individuals' income using data collected from the 1994 U.S. Census. It then chooses the best candidate algorithm from preliminary results and further optimizes it to best model the data. The goal with this implementation is to construct a model that accurately predicts whether an individual makes more than $50,000. This sort of task can arise in a non-profit setting, where organizations survive on donations. Understanding an individual's income can help a non-profit better understand how large of a donation to request, or whether or not they should reach out to begin with. While it can be difficult to determine an individual's general income bracket directly from public sources, this project shows that we can infer this value from other publically available features.
 
 ### Install
 
-This project requires **Python 3.7** and the following Python libraries installed:
-
+This project implemented using **Python 3.7** and the following Python libraries:
 
 - [Jupyter Notebook (IPython) 4.10.0](https://ipython.org/)
 - [NumPy 1.16.4](http://www.numpy.org/)
 - [Pandas 0.24.2](http://pandas.pydata.org/)
 - [matplotlib 2.2.4](http://matplotlib.org/)
-- [scikit-learn 0.19.2](http://scikit-learn.org/stable/)
-
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included.
+- [scikit-learn 0.17](http://scikit-learn.org/stable/)
 
 ### Code
 
-Template code is provided in the `predicting_housing_pricesg.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work.
+Template code is provided in the `market-research.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work.
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `predicting-housing-prices/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory `market-research/` (that contains this README) and run one of the following commands:
 
 ```bash
-ipython notebook predicting_housing_prices.ipynb
+ipython notebook market-research.ipynb
 ```  
 or
 ```bash
-jupyter notebook predicting_housing_prices.ipynb
+jupyter notebook market-research.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your browser.
 
 ### Data
 
-The modified housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/).
-
-**Features**
-1.  `RM`: average number of rooms per dwelling
-2. `LSTAT`: percentage of population considered lower status
-3. `PTRATIO`: pupil-teacher ratio by town
-
-**Target Variable**
-4. `MEDV`: median value of owner-occupied homes
+The dataset for this project originates from the UCI Machine Learning Repository. The datset was donated by Ron Kohavi and Barry Becker, after being published in the article "Scaling Up the Accuracy of Naive-Bayes Classifiers: A Decision-Tree Hybrid". We can find the article by Ron Kohavi online. The data we investigate here consists of small changes to the original dataset, such as removing the 'fnlwgt' feature and records with missing or ill-formatted entries.
