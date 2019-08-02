@@ -1,4 +1,4 @@
-## Predicting Housing Prices
+## Market Research Predictive Modeling
 
 ### Description
 
@@ -16,7 +16,7 @@ This project implemented using **Python 3.7** and the following Python libraries
 
 ### Code
 
-Template code is provided in the `market-research.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work.
+The code is provided in the `market-research.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work.
 
 ### Run
 
